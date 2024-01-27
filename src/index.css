@@ -1,0 +1,81 @@
+footer{
+    bottom: 0;
+    color: white;
+    text-align: center;
+    position: fixed; 
+    
+    width: 100%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=AddBook]:hover {
+    background-color: #45a049;
+  }
+  .btn {
+    display: flex; /* Use flexbox layout */
+     /* Space evenly between child elements */
+     padding-left: 5px;
+     width: 130px;
+}
+.btn .submit {
+    margin-left: 10px; /* Adjust the margin based on your preference */
+}
+  
+  .form
+  {
+    width: 500px;
+    border : 2px solid black;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 6px;
+    border-radius: 3px;
+  }
+
+  table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn input {
+    padding: 10px;
+}
+
+.btn .submit {
+    margin-left: 10px;
+}
